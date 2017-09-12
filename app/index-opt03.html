@@ -25,19 +25,31 @@
 </head>
 
 <body>
-  <div class="row">
+
+  <script>
+function myFunction() {
+    var x = document.getElementById("myMenu");
+    if (x.className === "menu-element") {
+        x.className += " responsive";
+    } else {
+        x.className = "menu-element";
+    }
+}
+</script>
+
 <div class="hero-background">
-  <div class="three columns">
-      <div class="name">
+  <div class="header">
+  <div class="row">
+  <div class="seven columns">
+    <div class="name">
   <a href="index-opt03.html" style="text-decoration: none;">
     megan rodger
   </a>
 </div>
 </div>
-<div class="menu">
-  <div class="offset-by-seven five columns">
-  <div class="menu-element">
-    <ul class="responsive-nav fixed left-0 top-0 center">
+  <div class="five columns">
+  <div class="menu-element" id="myMenu">
+    <ul class="top-nav fixed left-0 top-0 center">
     <li class="inline-block">
     <a href="index-opt03.html">Work</a>
     </li>
@@ -49,17 +61,15 @@
     <li class="inline-block">
   <a href="http://about-me.html">Words and images</a>
 </li>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </ul>
 </div>
 </div>
 
-<div class="one-liner hidden-xs">
-
-</div>
 </div>
 </div>
 
-    </header>
+    </div>
 </br>
 </br>
 
@@ -70,7 +80,7 @@
         <div class="row">
           <div class="twelve columns">
           <h2>
-            projects
+            Projects
           </h2>
         </div>
       </div>
