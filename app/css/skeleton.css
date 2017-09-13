@@ -31,25 +31,13 @@
 
 /* Typefaces*/
 
-@font-face {font-family: 'MuseoSans-700';src: url('_/css/webfonts/240C0E_0_0.eot');src: url('_/css/webfonts/240C0E_0_0.eot?#iefix') format('embedded-opentype'),url('_/css/webfonts/240C0E_0_0.woff') format('woff'),url('_/css/webfonts/240C0E_0_0.ttf') format('truetype');}
 
+@font-face {font-family: "MuseoSans-300";src: url('webfonts/museo300-regular-webfont.eot');src: url('webfonts/museo300-regular-webfont.eot#iefix') format('embedded-opentype'),url('webfonts/museo300-regular-webfont.woff') format('woff'),url('webfonts/museo300-regular-webfont.ttf') format('truetype');}
 
-@font-face {font-family: 'MuseoSans-300';src: url('_/css/webfonts/240C0E_1_0.eot');src: url('_/css/webfonts/240C0E_1_0.eot?#iefix') format('embedded-opentype'),url('_/css/webfonts/240C0E_1_0.woff') format('woff'),url('_/css/webfonts/240C0E_1_0.ttf') format('truetype');}
+@font-face {font-family: "MuseoSans-500";src: url('webfonts/museosans_500-webfont.eot');src: url('webfonts/museosans_500-webfont.eot#iefix') format('embedded-opentype'),url('webfonts/museosans_500-webfont.woff') format('woff'),url('webfonts/museosans_500-webfont.ttf') format('truetype');}
 
-
-@font-face {font-family: 'MuseoSans-300Italic';src: url('_/css/webfonts/240C0E_2_0.eot');src: url('_/css/webfonts/240C0E_2_0.eot?#iefix') format('embedded-opentype'),url('_/css/webfonts/240C0E_2_0.woff') format('woff'),url('_/css/webfonts/240C0E_2_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'MuseoSans-500';src: url('_/css/webfonts/241FB5_0_0.eot');src: url('_/css/webfonts/241FB5_0_0.eot?#iefix') format('embedded-opentype'),url('_/css/webfonts/241FB5_0_0.woff') format('woff'),url('_/css/webfonts/241FB5_0_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'MuseoSans-500Italic';src: url('_/css/webfonts/241FB5_1_0.eot');src: url('_/css/webfonts/241FB5_1_0.eot?#iefix') format('embedded-opentype'),url('_/css/webfonts/241FB5_1_0.woff') format('woff'),url('_/css/webfonts/241FB5_1_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'Mafra-Book';src: url('_/css/webfonts/240C0E_3_0.eot');src: url('_/css/webfonts/240C0E_3_0.eot?#iefix') format('embedded-opentype'),url('_/css/webfonts/240C0E_3_0.woff') format('woff'),url('_/css/webfonts/240C0E_3_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'Mafra-BookItalic';src: url('_/css/webfonts/240C0E_4_0.eot');src: url('_/css/webfonts/240C0E_4_0.eot?#iefix') format('embedded-opentype'),url('_/css/webfonts/240C0E_4_0.woff') format('woff'),url('_/css/webfonts/240C0E_4_0.ttf') format('truetype');}
+@font-face {font-family: "Roboto-regular";src: url('webfonts/Roboto-Regular-webfont.eot');src: url('webfonts/Roboto-Regular-webfont.eot#iefix') format('embedded-opentype'),url('webfonts/Roboto-Regular-webfont.woff') format('woff'),url('webfonts/Roboto-Regular-webfont.ttf') format('truetype');}
+@font-face {font-family: "Roboto-light";src: url('webfonts/Roboto-Light.eot');src: url('webfonts/Roboto-Light.eot#iefix') format('embedded-opentype'),url('webfonts/Roboto-Light.woff') format('woff'),url('webfonts/Roboto-Light.ttf') format('truetype');}
 
 
 .container {
@@ -162,8 +150,9 @@
 
 .menu-element {
 
+    width: 100%;
     margin: 0 auto;
-    font-family: 'MuseoSans-300', sans-serif;
+    font-family: "Roboto-regular", sans-serif;
     font-weight: 500;
     font-size: 18px;
     text-align: right;
@@ -171,6 +160,7 @@
     letter-spacing: .3px;
     margin-top: 3.5rem;
     margin-right: 3rem;
+    float: right;
 }
 
 .menu-element a:hover {
@@ -276,7 +266,7 @@ hr { width:100%; height:1px; background: #fff }
   padding-top: 3rem;
 }
 
-.work-menu {
+/*.work-menu {
   padding-top: 3rem;
   padding-left: 7rem;
   line-height: 20px;
@@ -284,8 +274,8 @@ hr { width:100%; height:1px; background: #fff }
   font-weight: 500;
   letter-spacing: .05rem;
   word-spacing: .05rem;
-  letter-spacing: .05rem;
-}
+  letter-spacing: .05rem; */
+
 
 .work-menu-alt h3 {
   text-align: center;
@@ -313,6 +303,7 @@ hr { width:100%; height:1px; background: #fff }
 
 .project-page img {
   padding-bottom: 2rem;
+
 }
 
 .project-page img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
@@ -340,7 +331,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 300;
-  font-family: "MuseoSans-300", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto-light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -376,13 +367,14 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+  font-family: "Roboto-light", "HelveticaNeue", Helvetica, sans-serif;}
 
 
 /* media queries*/
 
-@media screen and (max-width: 600px) {
-  .menu-element a:not(:first-child) {display: none;}
+@media screen and (max-width: 550px) {
+  .menu-element a {display: none;}
   .menu-element a.icon {
     float: right;
     display: block;
@@ -399,7 +391,7 @@ p {
   .menu-element.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
   }
 }
 
