@@ -52,19 +52,10 @@
   /* For devices larger than 400px */
   @media (max-width: 480px) {
     .container {
-<<<<<<< HEAD
-      width: 82%;
-      padding: 0; }
-  }
-
-
-
-=======
       width: 83%;
       padding: 0; }
   }
 
->>>>>>> 8961cb036abdffce27b1ca70f434b0db20a908f2
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
