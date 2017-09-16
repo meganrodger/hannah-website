@@ -52,11 +52,9 @@
   /* For devices larger than 400px */
   @media (max-width: 480px) {
     .container {
-      width: 82%;
+      width: 83%;
       padding: 0; }
   }
-
-
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -147,13 +145,13 @@
   display: block;
 }
 
-.hero-background-bottom {
+.base {
   width: 100%;
   min-height: 20vh;
   position: relative;
-  background: linear-gradient(to bottom, #ffffff 6%%, #D6F0D4 100%);
+  background: linear-gradient(to bottom, #ffffff 100%, #D6F0D4 40%);
   background-position-x: center;
-  background-position-y: bottom;
+  background-position-y: top;
   background-size: cover;
 }
 
