@@ -64,6 +64,8 @@
          padding-left: 0;
          font-size: 11px;
        }
+
+       .project-page img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
   }
 
 /* For devices larger than 400px */
