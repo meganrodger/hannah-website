@@ -660,7 +660,8 @@ there.
   .main-heading {
     text-align: center;
     font-size: 60px;
-    color: red;
+    margin-bottom: 0px;
+    color: #7F1720;
   }
 
   .main-page-image {
@@ -668,5 +669,20 @@ there.
   }
 
   .menu-page-feature {
-    margin-top: 100px;
+    margin-top: 120px;
+  }
+
+  .hold-message {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #7F1720;
+  }
+
+  .contact-details {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+    color: #7F1720;
   }
