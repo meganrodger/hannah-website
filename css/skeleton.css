@@ -165,33 +165,6 @@
 }
 
 
-.name a:hover {
-  color: red;
-}
-
-.menu-element {
-    font-family: "Roboto-light", sans-serif;
-    font-size: 24px;
-    word-spacing: 10px;
-    letter-spacing: .3px;
-    float: right;
-    padding-top: 2.6rem;
-    padding-right: 4rem;
-}
-
-.menu-element li {
-  display: inline-block;
-}
-.menu-element a:hover {
-  color: red;
-}
-
-
-
-.project-menu h2 {
-  text-align: center;
-}
-
 .inline {
 	display: inline;
 }
@@ -214,88 +187,9 @@ hr { width:100%; height:1px; background: #fff }
   max-width: 700px;
 }
 
-.project-menu {
-  padding: 3rem;
-  text-align: center;
-}
 
-.project-menu img {
-  max-width: 600px;
-  max-height: 391px;
-}
-
-.project-menu h3 {
-  font-size: 18px;
-  padding-top: 3rem;
-}
-
-/*.work-menu {
-  padding-top: 3rem;
-  padding-left: 7rem;
-  line-height: 20px;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: .05rem;
-  word-spacing: .05rem;
-  letter-spacing: .05rem; */
-
-
-.work-menu-alt h3 {
-  text-align: center;
-  font-size: 17px;
-  font-weight: 300;
-  padding-top: 2.5rem;
-  word-spacing: -1.5px;
-  line-height: normal;
-  font-family: "Roboto-light";
-}
-
-.work-menu-alt a:hover h3 {
-    text-decoration: underline;
-    color: grey;
-}
-
-
-.work-menu-alt h2 {
-  text-align: center;
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: .3rem;
-  padding-top: 2rem;
-}
-
-.work-menu-alt img {
-
-  display: inline-block;
-  padding-top: 4rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  vertical-align: middle;
-
-}
-
-.work-menu-alt img, img.scale-with-grid { outline: 0; max-width: 95%; height: auto; }
-
-.project-page {
-  padding-top: 2rem;
-}
-
-.project-page h1 {
-  margin-bottom: 5px;
-  letter-spacing: .8px;
-  font-family: "Roboto-regular";
-  font-weight: 600;
-}
-
-
-.project-page img {
-  padding-bottom: 2rem;
-  float: right;
-
-}
 
 .project-page img, img.scale-with-grid { outline: 0; max-width: 95%; height: auto; }
-
 
 
 
@@ -643,7 +537,15 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+
+  .main-heading {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: #7F1720;
+  }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
@@ -659,7 +561,7 @@ there.
 
   .main-heading {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 0px;
     color: #7F1720;
   }
